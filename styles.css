@@ -290,3 +290,10 @@ a:focus-visible,.btn:focus-visible,.hamburger:focus-visible,input:focus-visible{
 .signup .ml-error input{border-color:var(--red)!important;}
 @media (max-width:860px){.signup-grid{grid-template-columns:1fr;gap:26px;}}
 @media (max-width:480px){.signup .g-recaptcha{transform:scale(.85);transform-origin:0 0;}}
+
+
+/* Partner recognition line */
+.person .accolade{margin-top:12px;font-size:.9rem;color:var(--body);line-height:1.55;}
+.person .accolade span{display:block;font-size:.68rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--red);margin-bottom:4px;}
+.person .accolade a{color:var(--navy);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px;}
+.person .accolade a:hover{color:var(--navy-deep);}
