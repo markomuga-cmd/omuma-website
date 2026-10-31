@@ -21,5 +21,12 @@ DirectoryIndex index.html
   RewriteRule ^(home|home-2|index\.php)/?$ / [R=301,L]
 </IfModule>
 
+# Always serve the current HTML/CSS/JS after a deploy (revalidate, still allows 304s)
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|css|js)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
 # Friendly 404
 ErrorDocument 404 /404.html
