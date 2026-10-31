@@ -297,3 +297,7 @@ a:focus-visible,.btn:focus-visible,.hamburger:focus-visible,input:focus-visible{
 .person .accolade span{display:block;font-size:.68rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--red);margin-bottom:4px;}
 .person .accolade a{color:var(--navy);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px;}
 .person .accolade a:hover{color:var(--navy-deep);}
+
+/* Justify body paragraphs site-wide (house style) */
+p{text-align:justify;-webkit-hyphens:auto;hyphens:auto;}
+.contact-block p,.site-footer p{text-align:left;-webkit-hyphens:manual;hyphens:manual;}
