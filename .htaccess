@@ -24,7 +24,7 @@ DirectoryIndex index.html
 # Always serve the current HTML/CSS/JS after a deploy (revalidate, still allows 304s)
 <IfModule mod_headers.c>
   # Tell browsers to always use HTTPS for this site (so they never try http)
-  Header always set Strict-Transport-Security "max-age=2592000"
+  Header set Strict-Transport-Security "max-age=2592000"
   <FilesMatch "\.(html|css|js)$">
     Header set Cache-Control "no-cache, must-revalidate"
   </FilesMatch>
