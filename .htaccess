@@ -1,0 +1,25 @@
+# Serve pages as UTF-8
+AddDefaultCharset UTF-8
+
+# Default document
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Force HTTPS (proxy-safe)
+  RewriteCond %{HTTPS} off
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # Old WordPress URLs -> new pages (anchored, won't touch real .html files)
+  RewriteRule ^(about-us|about|about-the-firm|who-we-are)/?$ /about.html [R=301,L]
+  RewriteRule ^(our-team|team|our-people|people|lawyers|advocates|attorneys)/?$ /people.html [R=301,L]
+  RewriteRule ^(practice-areas|practice-area|practice|services|our-services|areas-of-practice|expertise|what-we-do)/?$ /practice.html [R=301,L]
+  RewriteRule ^(contact-us|contact|get-in-touch|reach-us)/?$ /contact.html [R=301,L]
+  RewriteRule ^(blog|news|news-and-events|news-events|events|publications|insights|articles)/?$ /news.html [R=301,L]
+  RewriteRule ^(home|home-2|index\.php)/?$ / [R=301,L]
+</IfModule>
+
+# Friendly 404
+ErrorDocument 404 /404.html
