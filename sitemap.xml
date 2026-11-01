@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://omumagroup.com/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-01</lastmod>
   </url>
   <url>
     <loc>https://omumagroup.com/about.html</loc>
@@ -18,7 +18,7 @@
   </url>
   <url>
     <loc>https://omumagroup.com/news.html</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-01</lastmod>
   </url>
   <url>
     <loc>https://omumagroup.com/contact.html</loc>
@@ -39,5 +39,9 @@
   <url>
     <loc>https://omumagroup.com/article-rabobank-foreign-lenders.html</loc>
     <lastmod>2026-10-31</lastmod>
+  </url>
+  <url>
+    <loc>https://omumagroup.com/article-excise-stamp-fee-ruling.html</loc>
+    <lastmod>2026-11-01</lastmod>
   </url>
 </urlset>
