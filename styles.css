@@ -301,3 +301,8 @@ a:focus-visible,.btn:focus-visible,.hamburger:focus-visible,input:focus-visible{
 /* Justify body paragraphs site-wide (house style) */
 p{text-align:justify;-webkit-hyphens:auto;hyphens:auto;}
 .contact-block p,.site-footer p{text-align:left;-webkit-hyphens:manual;hyphens:manual;}
+
+
+/* Article hero image */
+.article-hero{margin:0 0 30px;}
+.article-hero img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:12px;display:block;box-shadow:0 20px 48px -22px rgba(6,50,79,.45);}
