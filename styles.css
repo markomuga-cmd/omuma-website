@@ -260,6 +260,7 @@ a:focus-visible,.btn:focus-visible,.hamburger:focus-visible,input:focus-visible{
   .people{grid-template-columns:1fr;}
   .logos{grid-template-columns:repeat(2,1fr);}
   .footer-note{flex-direction:column;}
+  .brand img{height:40px;}
 }
 
 
