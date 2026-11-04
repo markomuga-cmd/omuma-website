@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://omumagroup.com/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-04</lastmod>
   </url>
   <url>
     <loc>https://omumagroup.com/about.html</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-04</lastmod>
   </url>
   <url>
     <loc>https://omumagroup.com/practice.html</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-04</lastmod>
   </url>
   <url>
     <loc>https://omumagroup.com/people.html</loc>
@@ -18,11 +18,11 @@
   </url>
   <url>
     <loc>https://omumagroup.com/news.html</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-04</lastmod>
   </url>
   <url>
     <loc>https://omumagroup.com/contact.html</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-04</lastmod>
   </url>
   <url>
     <loc>https://omumagroup.com/article-payments-rulebook.html</loc>
@@ -75,5 +75,9 @@
   <url>
     <loc>https://omumagroup.com/article-energy-storage-finance.html</loc>
     <lastmod>2026-11-03</lastmod>
+  </url>
+  <url>
+    <loc>https://omumagroup.com/article-trust-rules-vires.html</loc>
+    <lastmod>2026-11-04</lastmod>
   </url>
 </urlset>
