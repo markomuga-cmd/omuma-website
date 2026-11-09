@@ -474,8 +474,27 @@
   </div>
 </footer>
   <script>function ml_webform_success_47870774(){var $=ml_jQuery||jQuery;$('.ml-subscribe-form-47870774 .row-success').show();$('.ml-subscribe-form-47870774 .row-form').hide();}</script>
-  <script src="https://groot.mailerlite.com/js/w/webforms.min.js?v83147fa8ce2d95cb73ece7f28b469519" type="text/javascript"></script>
-  <script>fetch("https://assets.mailerlite.com/jsonp/2758089/forms/202853246842176544/takel")</script>
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script>
+  (function(){
+    var loaded=false;
+    function loadML(){
+      if(loaded)return;loaded=true;
+      var s=document.createElement('script');
+      s.src="https://groot.mailerlite.com/js/w/webforms.min.js?v83147fa8ce2d95cb73ece7f28b469519";
+      s.onload=function(){try{fetch("https://assets.mailerlite.com/jsonp/2758089/forms/202853246842176544/takel");}catch(e){}};
+      document.body.appendChild(s);
+      var r=document.createElement('script');
+      r.src="https://www.google.com/recaptcha/api.js";r.async=true;r.defer=true;
+      document.body.appendChild(r);
+    }
+    var el=document.getElementById('mlb2-47870774');
+    if('IntersectionObserver' in window && el){
+      var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){loadML();io.disconnect();}});},{rootMargin:'600px'});
+      io.observe(el);
+    }else{
+      window.addEventListener('load',function(){setTimeout(loadML,3000);});
+    }
+  })();
+  </script>
 </body>
 </html>
