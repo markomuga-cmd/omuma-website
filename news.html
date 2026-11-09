@@ -494,6 +494,7 @@
     }else{
       window.addEventListener('load',function(){setTimeout(loadML,3000);});
     }
+    ['scroll','pointerdown','touchstart','keydown'].forEach(function(ev){window.addEventListener(ev,loadML,{once:true,passive:true});});
   })();
   </script>
 </body>
