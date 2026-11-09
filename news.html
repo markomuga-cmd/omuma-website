@@ -208,6 +208,7 @@
   ]
 }
 </script>
+<script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
 <div class="topbar">
@@ -243,13 +244,13 @@
 
   <section class="section band--alt">
     <div class="container">
-      <div class="section-head">
+      <div class="section-head reveal">
         <p class="eyebrow">Insights &amp; analysis</p>
         <h2>Notes on the law that moves our clients.</h2>
         <p class="sub">The developments we are watching in our fields, with our read on what each one means for the businesses and people we act for.</p>
       </div>
 
-      <a class="insight-lead" href="article-twiga-customs-legitimate-expectation.html">
+      <a class="insight-lead reveal" data-cat="tax" href="article-twiga-customs-legitimate-expectation.html">
           <img class="thumb" src="assets/article-twiga-customs-legitimate-expectation.jpg" alt="A customs declaration form stamped DUTY beside a brass seal press on a dock, with stacked shipping containers and port cranes at blue hour behind" loading="lazy">
         <p class="meta">Tax &amp; customs &middot; 9 November 2026</p>
         <h3>The taxman's word: why a customs demand could not come back from the dead</h3>
@@ -257,108 +258,121 @@
         <span class="more">Read the analysis</span>
       </a>
 
+      <div class="insight-filter" aria-label="Filter insights by practice area">
+        <button class="chip is-active" data-filter="all">All</button>
+        <button class="chip" data-filter="finance">Banking &amp; finance</button>
+        <button class="chip" data-filter="tax">Tax</button>
+        <button class="chip" data-filter="corporate">Corporate</button>
+        <button class="chip" data-filter="realestate">Real estate</button>
+        <button class="chip" data-filter="privateclient">Private client</button>
+        <button class="chip" data-filter="projects">Projects &amp; energy</button>
+        <button class="chip" data-filter="insurance">Insurance</button>
+        <button class="chip" data-filter="technology">Technology</button>
+        <span class="filter-count" aria-live="polite"></span>
+      </div>
+
       <div class="archive">
         <h3 class="archive-month">November 2026</h3>
         <div class="insight-grid">
-          <a class="insight" href="article-quickmart-ipo-allocation.html">
+          <a class="insight reveal" data-cat="corporate" href="article-quickmart-ipo-allocation.html">
           <img class="thumb" src="assets/article-quickmart-ipo-allocation.jpg" alt="An abstract bar chart built from glass and navy columns of descending height, with one slender red column standing apart, on a clean grey to navy background" loading="lazy">
             <p class="meta">Corporate &amp; commercial &middot; 9 Nov 2026</p>
             <h3>Why Quickmart's own founders were turned away from its IPO</h3>
             <p>Quickmart's IPO was oversubscribed, and its own founders were allocated nothing while the retail public got every share. How the law makes a company set the allocation policy that decides who gets in.</p>
             <span class="more">Read more</span>
           </a>
-          <a class="insight" href="article-access-nbk-cross-border.html">
+          <a class="insight reveal" data-cat="finance" href="article-access-nbk-cross-border.html">
           <img class="thumb" src="assets/article-access-nbk-cross-border.jpg" alt="Two copies of an acquisition agreement on a dark desk, one stamped with a red official seal and one left unstamped, a fountain pen between them" loading="lazy">
             <p class="meta">Financial services &amp; banking &middot; 8 Nov 2026</p>
             <h3>Why a Kenyan clearance does not finish a cross-border bank deal</h3>
             <p>The CBK and the Treasury cleared Access Bank's purchase of National Bank of Kenya, yet NBK sits off the buyer's books because its home regulator has not finished. What the home-host problem means here.</p>
             <span class="more">Read more</span>
           </a>
-          <a class="insight" href="article-nlc-review-of-grants.html">
+          <a class="insight reveal" data-cat="realestate" href="article-nlc-review-of-grants.html">
           <img class="thumb" src="assets/article-nlc-review-of-grants.jpg" alt="An old land grant document with an official seal and a red wax seal, a surveyor's cadastral map marked with plot boundaries, a magnifying glass and a brass seal press on a dark desk" loading="lazy">
             <p class="meta">Real estate &amp; property &middot; 7 Nov 2026</p>
             <h3>When public land became private: the title the NLC can reopen</h3>
             <p>The National Land Commission can once again reopen titles that began as public land. Why the new bona fide purchaser shield is thinner than it looks, and why the root of a title now decides its safety.</p>
             <span class="more">Read more</span>
           </a>
-          <a class="insight" href="article-njiru-adverse-possession.html">
+          <a class="insight reveal" data-cat="realestate" href="article-njiru-adverse-possession.html">
           <img class="thumb" src="assets/article-njiru-adverse-possession.jpg" alt="A wide tract of open peri-urban Nairobi grassland at golden hour, a weathered concrete boundary beacon and a wire fence line in the foreground, the hazy city skyline on the horizon" loading="lazy">
             <p class="meta">Real estate &amp; property &middot; 7 Nov 2026</p>
             <h3>Why a broken occupation sinks an adverse possession claim</h3>
             <p>Long occupation of another's land can ripen into ownership under Kenya's adverse possession doctrine, but only if it is never interrupted. Why continued possession, not time alone, is what the law protects.</p>
             <span class="more">Read more</span>
           </a>
-          <a class="insight" href="article-platform-rules.html">
+          <a class="insight reveal" data-cat="technology" href="article-platform-rules.html">
           <img class="thumb" src="assets/article-platform-rules.jpg" alt="A satellite night view of East Africa, city lights glowing below thin cloud, a faint web of data lines across the dark landmass" loading="lazy">
             <p class="meta">Technology &amp; regulation &middot; 5 Nov 2026</p>
             <h3>A duty to police, with no safe harbour: the legal holes in the draft platform rules</h3>
             <p>Kenya's draft platform Bill would make every online operator police and report its users, with no safe harbour and a criminal penalty behind it. The legal holes in the new section 85C.</p>
             <span class="more">Read more</span>
           </a>
-          <a class="insight" href="article-trust-rules-vires.html">
+          <a class="insight reveal" data-cat="privateclient" href="article-trust-rules-vires.html">
           <img class="thumb" src="assets/article-trust-rules-vires.jpg" alt="An open leather-bound trust register on a dark desk, a brass magnifying glass and a red ribbon bookmark on the handwritten page" loading="lazy">
             <p class="meta">Private client &amp; succession &middot; 4 Nov 2026</p>
             <h3>A power the Act did not give: the vires question in the draft trust rules</h3>
             <p>Kenya's draft Trust Administration Regulations would let a trustee freeze a beneficiary's distributions for non-disclosure, and whether a regulation can lawfully do that is the real question.</p>
             <span class="more">Read more</span>
           </a>
-          <a class="insight" href="article-energy-storage-finance.html">
+          <a class="insight reveal" data-cat="projects" href="article-energy-storage-finance.html">
           <img class="thumb" src="assets/article-energy-storage-finance.jpg" alt="Solar panels, a wind turbine and a battery storage unit on open ground at sunset, with hills on the horizon" loading="lazy">
             <p class="meta">Energy &amp; project finance &middot; 3 Nov 2026</p>
             <h3>A grant and a loan to 2048: the finance behind Kenya's first grid batteries</h3>
             <p>KenGen has secured about 10.5 billion shillings for Kenya's first grid-scale battery storage, almost all of it a climate-fund grant and a concessional World Bank loan to 2048.</p>
             <span class="more">Read more</span>
           </a>
-          <a class="insight" href="article-capital-deadline-standoff.html">
+          <a class="insight reveal" data-cat="finance" href="article-capital-deadline-standoff.html">
           <img class="thumb" src="assets/article-capital-deadline-standoff.jpg" alt="A taut rope cinched hard around a stack of coins on a dark desk, with one strand of the rope deep red" loading="lazy">
             <p class="meta">Banking &amp; finance &middot; 3 Nov 2026</p>
             <h3>CBK says 2029, the Treasury says 2032: which bank capital deadline binds</h3>
             <p>The Central Bank has told banks to ignore the Treasury's move to push the Sh10 billion capital deadline to 2032. On the record so far, the statutory deadline binds.</p>
             <span class="more">Read more</span>
           </a>
-          <a class="insight" href="article-bank-capital-rules.html">
+          <a class="insight reveal" data-cat="finance" href="article-bank-capital-rules.html">
           <img class="thumb" src="assets/article-bank-capital-rules.jpg" alt="A dark neoclassical bank building beside stacks of coins under a glass dome ringed with red light" loading="lazy">
             <p class="meta">Banking &amp; finance &middot; 3 Nov 2026</p>
             <h3>New capital rules for Kenya's biggest banks</h3>
             <p>The Central Bank wants systemically important banks to hold more capital. Its prudential and risk rules are out for comment until Friday 7 November.</p>
             <span class="more">Read more</span>
           </a>
-          <a class="insight" href="article-secured-lender-auction.html">
+          <a class="insight reveal" data-cat="finance" href="article-secured-lender-auction.html">
           <img class="thumb" src="assets/article-secured-lender-auction.jpg" alt="An auctioneer's gavel, a brass model house and key, a sealed title deed with a red wax seal, and a blank envelope on a dark desk" loading="lazy">
             <p class="meta">Banking &amp; finance &middot; 3 Nov 2026</p>
             <h3>A valid charge is not enough: when a botched auction makes the lender the debtor</h3>
             <p>The Court of Appeal confirms a bank with a valid charge can still be ordered to pay its defaulting borrower, if it cannot prove it served the statutory notice and sold at a fair price.</p>
             <span class="more">Read more</span>
           </a>
-          <a class="insight" href="article-trust-administration-act.html">
+          <a class="insight reveal" data-cat="privateclient" href="article-trust-administration-act.html">
           <img class="thumb" src="assets/article-trust-administration-act.jpg" alt="An hourglass with red sand running low, beside a trust deed, a brass key and a small brass house" loading="lazy">
             <p class="meta">Private client &amp; succession &middot; 2 Nov 2026</p>
             <h3>A trust in a drawer no longer counts. Kenya's new trust law, and the two-year clock.</h3>
             <p>Every written trust must now be registered or incorporated, or a court will not enforce it, and existing trusts have until September 2028 to comply.</p>
             <span class="more">Read more</span>
           </a>
-          <a class="insight" href="article-vat-payment-fees.html">
+          <a class="insight reveal" data-cat="finance" href="article-vat-payment-fees.html">
           <img class="thumb" src="assets/article-vat-payment-fees.jpg" alt="Sixteen percent set in navy, with a rising red line" loading="lazy">
             <p class="meta">Financial services &amp; payments &middot; 1 Nov 2026</p>
             <h3>Payment fees now carry 16% VAT. The taxman lost in court, so the law changed.</h3>
             <p>The Finance Act 2026 stripped the VAT exemption from the fees payment providers, gateways and banks charge to process your money, undoing by statute a run of cases the taxman had just lost.</p>
             <span class="more">Read more</span>
           </a>
-          <a class="insight" href="article-marine-cargo-insurance.html">
+          <a class="insight reveal" data-cat="insurance" href="article-marine-cargo-insurance.html">
           <img class="thumb" src="assets/article-marine-cargo-insurance.jpg" alt="A container ship docking at a port at dusk" loading="lazy">
             <p class="meta">Insurance &amp; trade &middot; 1 Nov 2026</p>
             <h3>No local marine cover, no clearance. The rule is not new; the enforcement is.</h3>
             <p>From 1 November, KRA blocks any import from clearing customs without marine cargo insurance from a Kenyan-licensed insurer. The real catch is in your sale contract.</p>
             <span class="more">Read more</span>
           </a>
-          <a class="insight" href="article-airtel-money-listing.html">
+          <a class="insight reveal" data-cat="corporate" href="article-airtel-money-listing.html">
           <img class="thumb" src="assets/article-airtel-money-listing.jpg" alt="A dark clock face with a single red hand" loading="lazy">
             <p class="meta">Corporate &amp; commercial &middot; 1 Nov 2026</p>
             <h3>Airtel listed its mobile money arm to settle a promise, not to raise money</h3>
             <p>Its London float raised nothing for the company. It was there to give 2021 minority investors their exit and lift a $515 million put option off the balance sheet.</p>
             <span class="more">Read more</span>
           </a>
-          <a class="insight" href="article-excise-stamp-fee-ruling.html">
+          <a class="insight reveal" data-cat="tax" href="article-excise-stamp-fee-ruling.html">
           <img class="thumb" src="assets/article-excise-stamp-fee-ruling.jpg" alt="A security revenue stamp dissolving into fine guilloche lines" loading="lazy">
             <p class="meta">Tax &amp; constitutional law &middot; 1 Nov 2026</p>
             <h3>Why the excise stamp-fee judgment settled nothing</h3>
@@ -368,28 +382,28 @@
         </div>
         <h3 class="archive-month">October 2026</h3>
         <div class="insight-grid">
-          <a class="insight" href="article-payments-rulebook.html">
+          <a class="insight reveal" data-cat="finance" href="article-payments-rulebook.html">
           <img class="thumb" src="assets/article-payments-rulebook.jpg" alt="Nairobi financial district with a digital payments network" loading="lazy">
             <p class="meta">Financial services &amp; payments &middot; 31 Oct 2026</p>
             <h3>Kenya is rewriting the payments rulebook. Here is what it means for you.</h3>
             <p>The draft National Payment System Bill, 2026 would replace the regime that has governed mobile money and card payments since 2011, handing the Central Bank sweeping new powers, mandating open finance, and ring-fencing customer money.</p>
             <span class="more">Read more</span>
           </a>
-          <a class="insight" href="article-vasp-deadline.html">
+          <a class="insight reveal" data-cat="finance" href="article-vasp-deadline.html">
           <img class="thumb" src="assets/article-vasp-deadline.jpg" alt="A metallic digital token ringed by a countdown dial" loading="lazy">
             <p class="meta">Financial services &middot; 31 Oct 2026</p>
             <h3>Crypto's compliance clock: the 4 November VASP licensing deadline</h3>
             <p>Existing virtual asset firms have until 4 November 2026 to get licensed under Kenya's new regime.</p>
             <span class="more">Read more</span>
           </a>
-          <a class="insight" href="article-credit-providers-regs.html">
+          <a class="insight reveal" data-cat="finance" href="article-credit-providers-regs.html">
           <img class="thumb" src="assets/article-credit-providers-regs.jpg" alt="Abstract blocks under a translucent regulatory shield" loading="lazy">
             <p class="meta">Financial services &middot; 31 Oct 2026</p>
             <h3>A wider net for lenders: the Non-Deposit Taking Credit Providers Regulations, 2026</h3>
             <p>New rules extend Central Bank oversight beyond digital lenders to asset finance and buy-now-pay-later.</p>
             <span class="more">Read more</span>
           </a>
-          <a class="insight" href="article-rabobank-foreign-lenders.html">
+          <a class="insight reveal" data-cat="projects" href="article-rabobank-foreign-lenders.html">
           <img class="thumb" src="assets/article-rabobank-foreign-lenders.jpg" alt="Scales of justice with a bridge and world map" loading="lazy">
             <p class="meta">Project finance &middot; Case law</p>
             <h3>Foreign lenders keep their day in court: Rabobank v Mwangi</h3>
@@ -511,6 +525,43 @@
       window.addEventListener('load',function(){setTimeout(loadML,3000);});
     }
     ['scroll','pointerdown','touchstart','keydown'].forEach(function(ev){window.addEventListener(ev,loadML,{once:true,passive:true});});
+  })();
+  </script>
+  <script>
+  (function(){
+    var filter=document.querySelector('.insight-filter');
+    if(filter){
+      var chips=[].slice.call(filter.querySelectorAll('.chip'));
+      var cards=[].slice.call(document.querySelectorAll('.archive .insight'));
+      var grids=[].slice.call(document.querySelectorAll('.archive .insight-grid'));
+      var count=filter.querySelector('.filter-count');
+      function apply(f,immediate){
+        var shown=0;
+        cards.forEach(function(c){
+          var ok=(f==='all')||(c.getAttribute('data-cat')===f);
+          c.classList.toggle('is-hidden',!ok);
+          if(ok){shown++;if(immediate)c.classList.add('in');}
+        });
+        grids.forEach(function(g){
+          var h=g.previousElementSibling;
+          if(h&&h.classList.contains('archive-month')) h.classList.toggle('is-hidden',!g.querySelector('.insight:not(.is-hidden)'));
+        });
+        if(count)count.textContent=shown+(shown===1?' insight':' insights');
+      }
+      chips.forEach(function(ch){
+        ch.addEventListener('click',function(){
+          chips.forEach(function(x){x.classList.remove('is-active');});
+          ch.classList.add('is-active');
+          apply(ch.getAttribute('data-filter'),true);
+        });
+      });
+      apply('all',false);
+    }
+    var rev=[].slice.call(document.querySelectorAll('.reveal'));
+    if('IntersectionObserver' in window && rev.length){
+      var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{rootMargin:'0px 0px -8% 0px'});
+      rev.forEach(function(el){io.observe(el);});
+    }else{rev.forEach(function(el){el.classList.add('in');});}
   })();
   </script>
 </body>
