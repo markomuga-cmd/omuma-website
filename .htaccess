@@ -23,6 +23,9 @@ DirectoryIndex index.html
   RewriteRule ^(contact-us|contact|get-in-touch|reach-us)/?$ /contact.html [R=301,L]
   RewriteRule ^(blog|news|news-and-events|news-events|events|publications|insights|articles)/?$ /news.html [R=301,L]
   RewriteRule ^(home|home-2|index\.php)/?$ / [R=301,L]
+
+  # Old WordPress dated blog permalinks (/YYYY/MM/..., /YYYY/MM/DD/slug) -> News page
+  RewriteRule ^[0-9]{4}/[0-9]{2}(/.*)?$ /news.html [R=301,L]
 </IfModule>
 
 # Always serve the current HTML/CSS/JS after a deploy (revalidate, still allows 304s)
