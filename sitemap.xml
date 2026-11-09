@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://omumagroup.com/</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-09</lastmod>
   </url>
   <url>
     <loc>https://omumagroup.com/about.html</loc>
@@ -18,7 +18,7 @@
   </url>
   <url>
     <loc>https://omumagroup.com/news.html</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-09</lastmod>
   </url>
   <url>
     <loc>https://omumagroup.com/contact.html</loc>
@@ -95,5 +95,9 @@
   <url>
     <loc>https://omumagroup.com/article-access-nbk-cross-border.html</loc>
     <lastmod>2026-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://omumagroup.com/article-quickmart-ipo-allocation.html</loc>
+    <lastmod>2026-11-09</lastmod>
   </url>
 </urlset>
