@@ -327,7 +327,7 @@ p{text-align:justify;-webkit-hyphens:auto;hyphens:auto;}
 @media(max-width:640px){.related ul{grid-template-columns:1fr;}}
 
 /* ===== Brand background textures (added 2026-11) ===== */
-body{background-color:var(--paper);background-image:radial-gradient(circle at 1px 1px, rgba(7,31,51,.045) 1px, transparent 1.6px);background-size:24px 24px;}
+body{background-color:var(--paper);background-image:radial-gradient(circle at 1px 1px, rgba(7,31,51,.045) 1px, transparent 1.6px);background-size:24px 24px;hanging-punctuation:first last;}
 .band--alt{background-color:var(--paper-alt);background-image:radial-gradient(circle at 1px 1px, rgba(7,31,51,.05) 1px, transparent 1.6px);background-size:24px 24px;}
 .band--deep{background-color:var(--paper-deep);background-image:radial-gradient(circle at 1px 1px, rgba(7,31,51,.055) 1px, transparent 1.6px);background-size:24px 24px;}
 .pagehero,.band--navy,.cta{position:relative;overflow:hidden;background-color:var(--navy-ink);background-image:radial-gradient(130% 150% at 88% -15%, rgba(52,165,221,.20), transparent 52%),linear-gradient(165deg, var(--navy-ink) 0%, var(--navy-deep) 68%, var(--navy) 100%);}
