@@ -362,11 +362,13 @@ body{background-color:var(--paper);background-image:radial-gradient(circle at 1p
 @media (prefers-reduced-motion:reduce){.js .reveal{opacity:1;transform:none;transition:none;}.insight .thumb,.insight:hover .thumb{transition:none;transform:none;}}
 @media (max-width:640px){.insight-filter .chip{font-size:.78rem;padding:8px 13px;}.insight-filter .filter-count{margin-left:0;width:100%;margin-top:4px;}}
 /* News page: lift the lead insight toward the fold so a visitor sees fresh content without scrolling */
-.pagehero.news-hero{padding-block:64px 32px;}
-.section.news-insights{padding-top:40px;}
-.news-insights .section-head{margin-bottom:24px;}
+.pagehero.news-hero{padding-block:48px 24px;}
+.section.news-insights{padding-top:28px;}
+.news-insights .section-head{margin-bottom:16px;}
+.news-insights .section-head h2{font-size:clamp(1.7rem,3.2vw,2.3rem);line-height:1.12;}
+.news-insights .section-head .sub{margin-top:10px;font-size:1.04rem;}
 @media (max-width:900px){
-  .pagehero.news-hero{padding-block:52px 30px;}
-  .section.news-insights{padding-top:34px;}
-  .news-insights .section-head{margin-bottom:22px;}
+  .pagehero.news-hero{padding-block:40px 20px;}
+  .section.news-insights{padding-top:24px;}
+  .news-insights .section-head{margin-bottom:14px;}
 }
