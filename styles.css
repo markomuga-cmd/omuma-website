@@ -361,3 +361,12 @@ body{background-color:var(--paper);background-image:radial-gradient(circle at 1p
 .js .reveal.in{opacity:1;transform:none;}
 @media (prefers-reduced-motion:reduce){.js .reveal{opacity:1;transform:none;transition:none;}.insight .thumb,.insight:hover .thumb{transition:none;transform:none;}}
 @media (max-width:640px){.insight-filter .chip{font-size:.78rem;padding:8px 13px;}.insight-filter .filter-count{margin-left:0;width:100%;margin-top:4px;}}
+/* News page: lift the lead insight toward the fold so a visitor sees fresh content without scrolling */
+.pagehero.news-hero{padding-block:64px 32px;}
+.section.news-insights{padding-top:40px;}
+.news-insights .section-head{margin-bottom:24px;}
+@media (max-width:900px){
+  .pagehero.news-hero{padding-block:52px 30px;}
+  .section.news-insights{padding-top:34px;}
+  .news-insights .section-head{margin-bottom:22px;}
+}
