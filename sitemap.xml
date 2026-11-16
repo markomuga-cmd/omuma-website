@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://omumagroup.com/</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://omumagroup.com/about.html</loc>
@@ -18,7 +18,7 @@
   </url>
   <url>
     <loc>https://omumagroup.com/news.html</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://omumagroup.com/contact.html</loc>
@@ -119,5 +119,9 @@
   <url>
     <loc>https://omumagroup.com/article-nbk-musharakah.html</loc>
     <lastmod>2026-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://omumagroup.com/article-tax-refund-reversed-judgment.html</loc>
+    <lastmod>2026-11-16</lastmod>
   </url>
 </urlset>
