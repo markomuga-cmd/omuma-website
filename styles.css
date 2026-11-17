@@ -396,3 +396,8 @@ body{background-color:var(--paper);background-image:radial-gradient(circle at 1p
 .insight--commentary .byline-sm .av{width:28px;height:28px;border-radius:50%;background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--display);font-weight:600;font-size:.72rem;flex:0 0 auto;}
 .insight--commentary .byline-sm span{font-family:var(--sans);font-size:.8rem;color:var(--muted);font-weight:600;}
 .insight--commentary .more{color:var(--red);}
+/* Commentary filter chip (content-type, red accent) */
+.insight-filter .chip.chip--commentary{border-color:var(--red);color:var(--red);}
+.insight-filter .chip.chip--commentary:hover{border-color:var(--red);color:var(--red);}
+.insight-filter .chip.chip--commentary.is-active{background:var(--red);color:#fff;border-color:var(--red);}
+.insight-filter .chip.chip--commentary.is-active:hover{color:#fff;}
