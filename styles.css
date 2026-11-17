@@ -377,3 +377,22 @@ body{background-color:var(--paper);background-image:radial-gradient(circle at 1p
   .section.news-insights{padding-top:16px;}
   .news-insights .section-head{margin-bottom:10px;}
 }
+
+/* ===== Commentary (bylined opinion pieces) — added 2026-11-17 ===== */
+/* Article page */
+.kicker-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:24px;}
+.tag-commentary{display:inline-flex;align-items:center;background:var(--red);color:#fff;font-family:var(--sans);font-size:.72rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;padding:6px 14px;border-radius:999px;}
+.article--commentary .meta{color:var(--muted);margin-bottom:0;}
+.byline{display:flex;align-items:center;gap:14px;margin-top:28px;padding-top:22px;border-top:1px solid var(--line);}
+.byline .avatar{width:48px;height:48px;border-radius:50%;background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--display);font-weight:600;font-size:1.1rem;flex:0 0 auto;}
+.byline .who strong{display:block;font-family:var(--sans);font-size:.98rem;color:var(--navy-ink);font-weight:700;}
+.byline .who span{font-family:var(--sans);font-size:.82rem;color:var(--muted);}
+.standnote{margin-top:26px;background:var(--paper-alt);border-left:3px solid var(--red);padding:16px 20px;font-size:.98rem;line-height:1.6;color:var(--muted);font-style:italic;border-radius:0 8px 8px 0;}
+/* Archive card (text-forward, no thumb) */
+.insight--commentary{border-top:3px solid var(--red);display:flex;flex-direction:column;}
+.insight--commentary .badge-row{display:flex;align-items:center;gap:10px;margin-bottom:4px;}
+.tag-commentary-sm{display:inline-flex;align-items:center;background:var(--red);color:#fff;font-family:var(--sans);font-size:.64rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:4px 10px;border-radius:999px;}
+.insight--commentary .byline-sm{margin-top:auto;display:flex;align-items:center;gap:9px;padding-top:14px;}
+.insight--commentary .byline-sm .av{width:28px;height:28px;border-radius:50%;background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--display);font-weight:600;font-size:.72rem;flex:0 0 auto;}
+.insight--commentary .byline-sm span{font-family:var(--sans);font-size:.8rem;color:var(--muted);font-weight:600;}
+.insight--commentary .more{color:var(--red);}
