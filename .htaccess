@@ -16,6 +16,13 @@ DirectoryIndex index.html
   RewriteCond %{HTTP:X-Forwarded-Proto} !https
   RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+  # /index.html is the same page as the home page: send it to / (one canonical URL)
+  RewriteCond %{THE_REQUEST} ^[A-Z]+\s/index\.html[\s?]
+  RewriteRule ^index\.html$ / [R=301,L]
+
+  # Retired WordPress machinery: tell search engines these are permanently gone
+  RewriteRule ^(wp-admin|wp-login\.php|wp-content|wp-includes|wp-json|xmlrpc\.php)(/.*)?$ - [G,L]
+
   # Old WordPress URLs -> new pages (anchored, won't touch real .html files)
   RewriteRule ^(about-us|about|about-the-firm|who-we-are)/?$ /about.html [R=301,L]
   RewriteRule ^(our-team|team|our-people|people|lawyers|advocates|attorneys)/?$ /people.html [R=301,L]
