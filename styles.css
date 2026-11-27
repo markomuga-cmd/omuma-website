@@ -337,7 +337,7 @@ body{background-color:var(--paper);background-image:radial-gradient(circle at 1p
 .pagehero::after,.band--navy::after,.cta::after{content:"";position:absolute;right:-70px;bottom:-110px;width:420px;height:420px;background:url(assets/monogram-white.png) no-repeat center/contain;opacity:.06;pointer-events:none;z-index:0;}
 .pagehero>.container,.band--navy>.container,.cta>.container{position:relative;z-index:1;}
 .hero{position:relative;overflow:hidden;}
-.hero::before{content:"";position:absolute;right:-120px;top:50%;transform:translateY(-50%);width:560px;height:560px;background:url(assets/monogram.png) no-repeat center/contain;opacity:.04;pointer-events:none;z-index:0;}
+.hero::before{content:"";position:absolute;right:-120px;top:50%;transform:translateY(-50%);width:560px;height:560px;background:url(assets/monogram.png?v=2) no-repeat center/contain;opacity:.04;pointer-events:none;z-index:0;}
 .hero>.container{position:relative;z-index:1;}
 .pagehero--photo{background-image:linear-gradient(150deg, rgba(7,31,51,.88) 0%, rgba(6,50,79,.82) 55%, rgba(5,79,128,.74) 100%),var(--hero-photo, none);background-size:cover,cover;background-position:center,center;}
 
